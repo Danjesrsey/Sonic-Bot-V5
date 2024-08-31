@@ -3,7 +3,7 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "╭──────•◈•──────╮\n   ✰ლ𝐍𝐀𝐑𝐔𝐓𝐎ლ✰\n╰──────•◈•──────╯";
+const doNotDelete = "╭──────•◈•──────╮\n   𝕵𝖊𝖓 𝖉𝖊𝖒𝖔𝖑𝖎𝖘𝖘𝖊𝖚𝖗\n╰──────•◈•──────╯";
 /** 
 * @author NTKhang
 * @author: do not delete it
@@ -43,7 +43,7 @@ module.exports = {
 
   langs: {
     vi: {
-      help: "╭─────────────✿\n🍀 ʬɸʬ Shïsûį CMD ʬɸʬ\n├─────⭔\n│ Trang [ %2/%3 ]\n│ Hiện tại bot có %4 lệnh có thể sử dụng\n│ » Gõ %5help <số trang> để xem danh sách các lệnh\n│ » Gõ %5help để xem chi tiết cách sử dụng lệnh đó\n├────────❀\n│ %6\n╰─────────────✿",
+      help: "╭─────────────✿\n🍀 𝐝𝐚𝐧 𝐣𝐞𝐫𝐬𝐞𝐲 CMD 🦍🦍🦍\n├─────⭔\n│ Trang [ %2/%3 ]\n│ Hiện tại bot có %4 lệnh có thể sử dụng\n│ » Gõ %5help <số trang> để xem danh sách các lệnh\n│ » Gõ %5help để xem chi tiết cách sử dụng lệnh đó\n├────────❀\n│ %6\n╰─────────────✿",
       attechment:fs.createReadStream("anjarara.jpg"),
       help2: "%1├───────❀\n│ » Hiện tại bot có %2 lệnh có thể sử dụng\n│ » Gõ %3help <tên lệnh> để xem chi tiết cách sử dụng lệnh đó\n│ %4\n╰─────────────✿",
       commandNotFound: "Lệnh \"%1\" không tồn tại",
@@ -61,8 +61,8 @@ module.exports = {
       pageNotFound: "Trang %1 không tồn tại"
     },
     en: {
-      help: "╔╦══• •✠•❀•✠ • •══╦╗\nʚ❦ɞ𝐒𝐇𝐈𝐒𝐔𝐈👻𝐂𝐌𝐃𝐒ʚ❦ɞ\n╚╩══• •✠•❀•✠ • •══╩╝\n\n%1\n✶⊶⊷⊶⊷❍\n 𝗣𝗮𝗴𝗲 [ %2/%3 ]\n➤🏂 𝙸 𝚑𝚊𝚟𝚎 𝙰𝚌𝚝𝚞𝚊𝚕𝚕𝚢「 %4 」𝗖𝗠𝗗s \n➤🏂 𝗧𝗬𝗣𝗘: %5help <𝙿𝙰𝙶𝙴> t𝙾 𝚝𝚑𝚎 𝚟𝚒𝚎𝚠 𝚕𝚒𝚜𝚝 𝚘𝚏 𝙲𝚖𝚍𝚜\n➤🍀 » 𝗧𝗬𝗣𝗘: %5help 𝚃𝚘 𝚝𝚑𝚎 𝚍𝚎𝚝𝚊𝚒𝚕𝚜 𝚘𝚏 𝚑𝚘𝚠 𝚝𝚘 𝚞𝚜𝚎 𝚝𝚑𝚎 𝙲𝚘𝚖𝚖𝚊𝚖𝚍\n๑۩ ,¸¸,ø¤º°`°๑۞๑\n│ %6\n✶⊶⊷⊶⊷❍",
-      help2: "%1✶⊶⊷⊶⊷❍⊶⊷⊶⊷✶\n🍀| 𝐂𝐞 𝐛𝐨𝐭 𝐝𝐢𝐬𝐩𝐨𝐬𝐞 𝐝𝐞 🍂%2🍂𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐬\n━━━━━━━━━━━━━━━━\n👻| 𝐓𝐚𝐩𝐞 💧%3help💧𝐩𝐨𝐮𝐫 𝐚𝐯𝐨𝐢𝐫 𝐮𝐧𝐞 𝐥𝐢𝐬𝐭𝐞 𝐝𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐬\n━━━━━━━━━━━━━━━━\n%4\n╔╦══• •✠•🔵•✠ • •══╦╗\nʬɸʬ𝐒𝐎𝐍𝐈𝐂ʬʆʬ𝐒𝐇𝐈𝐒𝐔𝐈ʬɸʬ\n╚╩══• •✠•🔵•✠ • •══╩╝",
+      help: "╔╦══• •✠•❀•✠ • •🙈🙉\n𝐭𝐡𝐞 𝐛𝐫𝐨𝐜𝐤👻𝐝𝐚𝐧 𝐂𝐌𝐃𝐒\n╚╩══• •✠•❀•✠ • •══╩╝\n\n%1\n✶⊶⊷⊶⊷❍\n 𝗣𝗮𝗴𝗲 [ %2/%3 ]\n➤🏂 𝙸 𝚑𝚊𝚟𝚎 𝙰𝚌𝚝𝚞𝚊𝚕𝚕𝚢「 %4 」𝗖𝗠𝗗s \n➤🏂 𝗧𝗬𝗣𝗘: %5help <𝙿𝙰𝙶𝙴> t𝙾 𝚝𝚑𝚎 𝚟𝚒𝚎𝚠 𝚕𝚒𝚜𝚝 𝚘𝚏 𝙲𝚖𝚍𝚜\n➤🍀 » 𝗧𝗬𝗣𝗘: %5help 𝚃𝚘 𝚝𝚑𝚎 𝚍𝚎𝚝𝚊𝚒𝚕𝚜 𝚘𝚏 𝚑𝚘𝚠 𝚝𝚘 𝚞𝚜𝚎 𝚝𝚑𝚎 𝙲𝚘𝚖𝚖𝚊𝚖𝚍\n๑۩ ,¸¸,ø¤º°`°๑۞๑\n│ %6\n✶⊶⊷⊶⊷❍",
+      help2: "%1✶⊶⊷⊶⊷❍⊶⊷⊶⊷✶\n🍀| 𝐂𝐞 𝐛𝐨𝐭 𝐝𝐢𝐬𝐩𝐨𝐬𝐞 𝐝𝐞 🍂%2🍂𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐬\n━━━━━━━━━━━━━━━━\n👻| 𝐓𝐚𝐩𝐞 💧%3help💧𝐩𝐨𝐮𝐫 𝐚𝐯𝐨𝐢𝐫 𝐮𝐧𝐞 𝐥𝐢𝐬𝐭𝐞 𝐝𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝𝐞𝐬\n━━━━━━━━━━━━━━━━\n%4\n╔╦══• •✠•🔵•✠ • •══╦╗\n🔥🔥🔥\n💥💥💥• •✠•🔵•✠ • •══╩╝",
       commandNotFound: "𝗖𝗠𝗗 \"『%1』\" 𝙳𝚘𝚎𝚜 𝙴𝚡𝚒𝚜𝚝",
       getInfoCommand: "╭── NAME ────🎀\n %1\n├── INFO\n│ Description: %2\n│ Other names: %3\n│ Other names in your group: %4\n│ Version: %5\n│ Role: %6\n│ Time per command: %7s\n│ Author: %8\n├── Usage\n%9\n├── Notes\n│ The content inside <XXXXX> can be changed\n│ The content inside [a|b|c] is a or b or c\n╰──────🎀",
       onlyInfo: "╭── INFO ────🎀\n│ Command name: %1\n│ Description: %2\n│ Other names: %3\n│ Other names in your group: %4\n│ Version: %5\n│ Role: %6\n│ Time per command: %7s\n│ Author: %8\n╰─────────────🎀",
