@@ -37,9 +37,9 @@ module.exports = {
       
       api.setMessageReaction("🔴", event.messageID, () => { }, true);
       message.reply({
-        body: `𝐒𝐎𝐍𝐈𝐂🍀 ✧════•❁❀❁•════✧
+        body: `𝐝𝐚𝐧 𝐣𝐞𝐫𝐬𝐞𝐲🍀 ✧════•❁❀❁•════✧
 ${name} ${result}
-✧════•❁❀❁•════✧ 𝐀𝐑𝐂𝐀𝐍𝐎🔴`,
+✧════•❁❀❁•════✧ 𝕵𝖊𝖓☆𝖉𝖊𝖒𝖔𝖑𝖎𝖘𝖘𝖊𝖚𝖗🔴`,
         mentions: ment,
       }, (err, info) => {
         global.GoatBot.onReply.set(info.messageID, {
@@ -67,10 +67,10 @@ ${name} ${result}
      
       api.setMessageReaction("🔴", event.messageID, () => { }, true);
       message.reply({
-        body: `𝐒𝐎𝐍𝐈𝐂🍀 ✧════•❁❀❁•════✧
+        body: `𝐝𝐚𝐧 𝐣𝐞𝐫𝐬𝐞𝐲🍀 ✧════•❁❀❁•════✧
 ${name}  
 ${result}
-✧════•❁❀❁•════✧ 𝐀𝐑𝐂𝐀𝐍𝐎🔴`,
+✧════•❁❀❁•════✧ 𝕵𝖊𝖓 𝖉𝖊́𝖒𝖔𝖑𝖎𝖘𝖘𝖊𝖚𝖗𝖘🔴`,
         mentions: ment,
       }, (err, info) => {
         global.GoatBot.onReply.set(info.messageID, {
