@@ -3,11 +3,11 @@ module.exports = {
     name: "dark",
     aliases: ["drk"],
     version: "1.0",
-    author: "ʬɸʬ Shïsûį Dånïęl ʬɸʬ",
+    author: "dan jersey💥🔥🔥",
     countDown: 10,
     role: 0,
     shortDescription: "Amuses toi bien au jeu du hasard",
-    longDescription: "Seul le hasard tu rendras riche ou pauvre...Bonne chance",
+    longDescription: "Seul le hasard t𝐞 rendras riche ou pauvre...Bonne chance",
     category: "game",
     guide: "{pn} <Sonic/Shadow> <amount of money>"
   },
@@ -49,11 +49,11 @@ module.exports = {
       const winAmount = 2 * betAmount;
       userData.money += winAmount;
       await usersData.set(event.senderID, userData);
-      return message.reply(`🌿🎀𝑺𝑶𝑵𝑰𝑪🍀🏂  ───────────\  <(*✨∀✨*)ﾉ \ 🍀[ ${resultString} ]🍀\ 🎁 | 𝐁𝐢𝐞𝐧 𝐣𝐨𝐮𝐞 𝐭'𝐚𝐬 𝐠𝐚𝐠𝐧𝐞 🎀${winAmount}€🎀!`);
+      return message.reply(`🌿🎀itachi🍀🏂  ───────────\  <(*✨∀✨*)ﾉ \ 🍀[ ${resultString} ]🍀\ 🎁 | 𝐪𝐮𝐞𝐥𝐥𝐞 𝐜𝐡𝐚𝐧𝐜𝐞 𝐭'𝐚𝐬 𝐠𝐚𝐠𝐧𝐞 🎀${winAmount}€🎀!`);
     } else {
       userData.money -= betAmount;
       await usersData.set(event.senderID, userData);
-      return message.reply(`🎀🌿𝑺𝑶𝑵𝑰𝑪🍀🏂  ───────────\ 🖕🏻(#°□°)🖕🏻 \ 🍁[ ${resultString} ]🍁\ 🤦🏼| 𝐓𝐮 𝐚𝐬 𝐩𝐞𝐫𝐝𝐮 🎀${betAmount}€🎀.`);
+      return message.reply(`🎀🌿𝐢𝐭𝐚𝐜𝐡𝐢🍀🏂  ───────────\ 🖕🏻(#°□°)🖕🏻 \ 🍁[ ${resultString} ]🍁\ 🤦🏼| 𝐨𝐡𝐡𝐡 𝐦𝐚𝐦𝐚𝐝𝐨𝐮 𝐜𝐨𝐦𝐦𝐞𝐧𝐭 𝐭𝐮 𝐩𝐞𝐮𝐱 𝐩𝐞𝐫𝐝𝐫𝐞 🎀${betAmount}€🎀.`);
     }
   }
 }
