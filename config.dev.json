@@ -1,7 +1,7 @@
 {
   "facebookAccount": {
-    "email": "",
-    "password": "",
+    "email": "jessdans88@gmail.com",
+    "password": "bankaiii",
     "2FASecret": "",
     "i_user": "",
     "proxy": null,
@@ -16,14 +16,14 @@
     "enable": false,
     "ignoreCommand": []
   },
-  "adminBot": ["100090405019929"],
+  "adminBot": ["100083590576727"],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "✰ლ𝐍𝐀𝐑𝐔𝐓𝐎ლ✰",
-  "prefix": "€",
+  "nickNameBot": "𝕵𝖊𝖓☆𝖉𝖊𝖒𝖔𝖑𝖎𝖘𝖘𝖊𝖚𝖗",
+  "prefix": "¥",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
