@@ -3,7 +3,7 @@
 		name: "ai",
 		aliases: ["ai"],
 		version: "1.0",
-		author: "ʬɸʬ Sønïč Shïsûį ʬɸʬ", // do not change this credits
+		author: "Dan jęrsēy the goat", // do not change this credits
 		countDown: 5,
 		role: 0,
 		shortDescription: "send you pic of fleetway super Sonic ",
@@ -18,7 +18,7 @@
   ]
 let img = link[Math.floor(Math.random()*link.length)]
 message.send({
-  body: "𝐂'𝐞𝐬𝐭 𝐩𝐚𝐬 𝐚𝐢 𝐜𝐫𝐞𝐭𝐢𝐧 𝐜'𝐞𝐬𝐭 𝐒𝐨𝐧𝐢𝐜🙍",attachment: await global.utils.getStreamFromURL(img)
+  body: "itachi alll",attachment: await global.utils.getStreamFromURL(img)
 })
 }
 }
